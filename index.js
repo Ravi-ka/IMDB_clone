@@ -34,7 +34,7 @@ function displayMovieList(movies){
         if(movies[idx].Poster != "N/A")
             moviePoster = movies[idx].Poster;
         else 
-            moviePoster = "./No_Image_availabe.png";
+            moviePoster = "No_Image_availabe.png";
 
         movieListItem.innerHTML = `
         <div class = "search-item-thumbnail">
